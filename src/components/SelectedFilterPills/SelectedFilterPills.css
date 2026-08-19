@@ -1,0 +1,24 @@
+.selected-filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 60rem;
+  margin: 0 auto 1rem;
+}
+
+.selected-filter-pills__pill,
+.selected-filter-pills__clear {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid #9ca3af;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #252b42;
+  font: inherit;
+  cursor: pointer;
+}
+
+.selected-filter-pills__clear {
+  border-color: transparent;
+  text-decoration: underline;
+}

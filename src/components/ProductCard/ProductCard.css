@@ -1,0 +1,47 @@
+.product-card {
+  overflow: hidden;
+  width: min(100%, 15rem);
+  border: 1px solid #e1e4ea;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #252b42;
+}
+
+.product-card__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  background: #edf0f4;
+}
+
+.product-card__details {
+  padding: 1rem;
+}
+
+.product-card__name {
+  margin: 0;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-card__prices {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.product-card__price {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.product-card__max-price {
+  color: #747b8d;
+  font-size: 0.9rem;
+}

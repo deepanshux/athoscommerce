@@ -1,0 +1,18 @@
+.activity-indicator {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid #d1d5db;
+  border-top-color: #0bb3f5;
+  border-radius: 50%;
+  animation: activity-indicator-spin 0.8s linear infinite;
+}
+
+.activity-indicator--hidden {
+  visibility: hidden;
+}
+
+@keyframes activity-indicator-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

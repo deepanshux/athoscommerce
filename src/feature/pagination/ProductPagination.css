@@ -1,0 +1,44 @@
+.product-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.product-pagination__button {
+  position: relative;
+  min-width: 5.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #252b42;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #252b42;
+  font: inherit;
+  cursor: pointer;
+}
+
+.product-pagination__button:disabled {
+  border-color: #d1d5db;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.product-pagination__loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%, -50%);
+}
+
+.product-pagination__button:focus-visible {
+  outline: 2px solid #0bb3f5;
+  outline-offset: 2px;
+}
+
+.product-pagination__page {
+  min-width: 7rem;
+  color: #252b42;
+  text-align: center;
+}
